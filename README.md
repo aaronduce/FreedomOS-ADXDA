@@ -2,12 +2,13 @@
 
 ![alt text](assets/media/banners/FreedomxADXDA.png)
 
+## About ADXDA Edition
+
+FreedomOS, resurrected. Everything you knew and loved is back for more
+
 ## Community
 
 Become a part of the community by joining the [FreedomOS ADXDA Discord](https://discord.gg/pgxRgXJ). Keep up to date with the latest releases and help to test and contribute to the project.
-
-## Credits
-- [Nevax07](https://gitlab.com/Nevax/FreedomOS) - For the original ROM build
 
 ## Required
 - Linux x64 (others architectures are not currently supported).
@@ -60,6 +61,18 @@ If you forget to pull the submodules, run this command:
 ```bash
 git submodule update --init --recursive
 ```
+
+## Credits
+- [Nevax07](https://gitlab.com/Nevax/FreedomOS) - For the original ROM build
+- [kickoff](https://forum.xda-developers.com/member.php?u=498688) - For the aroma theme
+- [Chainfire](https://forum.xda-developers.com/member.php?u=631273) - For SuperSU
+- [amarullz](https://forum.xda-developers.com/member.php?u=402300) - For aroma project and the themes
+- [topjohnwu](https://forum.xda-developers.com/member.php?u=4470081) - For Magisk
+- [rovo89](https://forum.xda-developers.com/member.php?u=4419114) - For Xposed Installer
+- [DVDandroid](https://forum.xda-developers.com/member.php?u=5345056) - For Xposed Installer
+- [xpirt](https://forum.xda-developers.com/member.php?u=5132229) - For img2sdat
+- [A.R.I.S.E. Sound Systems](https://forum.xda-developers.com/member.php?u=7433324) - For Sound Tweaks and Systems
+- [The Open GApps Project](https://opengapps.org) - For Google Apps
 
 ## Join the team
 You can join our teams for testing (if you have one of our supported or planned to be supported devices). 
