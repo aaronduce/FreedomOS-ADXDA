@@ -1,6 +1,6 @@
 # FreedomOS - ADXDA Edition
 
-![alt text](assets/media/png/op5-big-banner-nougat.png)
+![alt text](assets/media/banners/FreedomxADXDA.png)
 
 ## Community
 
