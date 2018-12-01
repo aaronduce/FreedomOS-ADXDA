@@ -1,9 +1,0 @@
-
-
-<b>Agreement:</b>
-
-<*>You are installing this at your own risk. I nor any of the developers credited in this ROM are responsible for damages or issues that may occur to your device by usage of this ROM or it's bundled software packages.</*>
-
-<*>I will not provide support for any use of Substratum or Layers themes, or any use of an Xposed module, or any third-party Viper4ARISE profiles that you use or install on the ROM or device using the bundled software packages.</*>
-
-<*>By using this rom, you agree with the above terms!</*>
