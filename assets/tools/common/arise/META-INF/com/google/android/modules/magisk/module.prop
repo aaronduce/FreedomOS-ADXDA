@@ -1,7 +1,0 @@
-id=ARISE_Magisk_Compatibility_Module
-name=ARISE Magisk Compatibility Module
-version=v4.0
-versionCode=4.0
-author=ARISE Sound Systems™, Shadowghoster, Zackptg5
-description=Mobile audio enhancement system for nearly all Android devices. Sets selinux policy and makes scripts compatibile for magisk
-template=4
