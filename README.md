@@ -30,6 +30,8 @@ apt-get install python zip curl openssl libncurses-dev cpio python-virtualenv ga
 
 ## How to build
 
+IT IS KNOWN THAT THERE CAN BE ISSUES AT THIS TIME COMPILING USING THE GIT SOURCE. WE ARE WORKING ON RECTIFYING THE ISSUE.
+
 Clone all the required repos:
 ```bash
 git clone --recursive https://github.com/aaronduce/FreedomOS-adxda.git
@@ -73,6 +75,8 @@ git submodule update --init --recursive
 - [xpirt](https://forum.xda-developers.com/member.php?u=5132229) - For img2sdat
 - [A.R.I.S.E. Sound Systems](https://forum.xda-developers.com/member.php?u=7433324) - For Sound Tweaks and Systems
 - [The Open GApps Project](https://opengapps.org) - For Google Apps
+- [Tolyan and other Google Camera Port Developers](https://forum.xda-developers.com/oneplus-3/how-to/modded-google-camera-hdr-60fps-video-t3658552) - For the Google Camera Port
+- [Pexels Artists and Photographers](https://www.pexels.com) - For some of the background images
 
 ## Join the team
 You can join our teams for testing (if you have one of our supported or planned to be supported devices). 
