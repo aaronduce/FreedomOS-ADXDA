@@ -83,4 +83,4 @@ You can join our teams for testing (if you have one of our supported or planned 
 
 [Discord](https://discord.gg/pgxRgXJ)
 
-[XDA thread](http://forum.xda-developers.com/oneplus-3/development/rom-freedomos-1-0-t3409348)
+[XDA thread](#) - NOT AVAILABLE - as of 9th February 2019
