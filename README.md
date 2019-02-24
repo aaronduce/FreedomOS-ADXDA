@@ -1,6 +1,6 @@
-# FreedomOS - ADXDA Edition
-
 ![alt text](assets/media/banners/FreedomxADXDA.png)
+
+---
 
 ## About ADXDA Edition
 
