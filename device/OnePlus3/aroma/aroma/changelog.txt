@@ -1,3 +1,8 @@
+2.0
+    Pie release
+    UPGRADE: OxygenOS 9.0.5
+    UPDATE: OpenGApps 20190817
+
 1.0
     Initial release
     Changes from pull from Nevax:
