@@ -343,7 +343,9 @@ endif;
 
 alert (
   "If you like the ROM",
-  "You can buy the original creator a beer, his work and efforts are very appreciated by the ADXDA team:\n"+
+  "You can support the teams efforts to continue development and updates of ADXDA\n"+
+  "Paypal: <b>aaron@duce.me.uk</b>\n\n"+
+  "Or you can buy the original creator a beer, his work and efforts are very appreciated by the ADXDA team:\n"+
   "Paypal: <b>antoine.gravelot@hotmail.com</b>\n"+
   "Really appreciated!",
  "@paypal"

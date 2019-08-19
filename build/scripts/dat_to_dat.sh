@@ -28,7 +28,7 @@ function dat_to_dat {
   mkdir -p ${tmp_root}/boot
   cp ${tmp_root}/boot.img ${tmp_root}/boot/boot.img >> ${build_log} 2>&1
   cd ${tmp_root}/boot >> ${build_log} 2>&1
-  echo ">>> Extracting kernel" 2>&1 | tee -a ${build_log}
+  echo ">>> Extracting kernel" 2>&1 | tee -a ${build_log} 
   ${build_root}/tools/${HOST_ARCH}/unpackbootimg -i boot.img -o . >> ${build_log} 2>&1
   echo ">>>> Extracting ramdisk" 2>&1 | tee -a ${build_log}
   ${build_root}/tools/${HOST_ARCH}/abootimg-unpack-initrd boot.img-ramdisk.gz >> ${build_log} 2>&1
@@ -46,13 +46,11 @@ function dat_to_dat {
 		paste -d '\t' <(echo "$contest" | grep -v "^u:") <(echo "$contest" | grep "^u:") | grep -v "S2RP\|ERCP" >> ${tmp_root}/file_contexts
     rm -vf ${tmp_root}/file_contexts.bin >> ${build_log} 2>&1
   elif [[ -f ${tmp_root}/boot/ramdisk/plat_file_contexts ]]; then
-      # For Android Oreo
+      # For Android Pie (Oreo 'nonplat' contexts lists removed and deprecated - nonplat_service_contexts changed to plat_service_contexts, nonplat_property_contexts and nonplat_file_contexts removed)
       CONTEXTS_LIST=" 
-      nonplat_service_contexts
+      plat_service_contexts
       plat_property_contexts
-      nonplat_property_contexts
       plat_file_contexts
-      nonplat_file_contexts
       "
       # plat_service_contexts
       # vndservice_contexts
