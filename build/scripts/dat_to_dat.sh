@@ -48,7 +48,6 @@ function dat_to_dat {
   elif [[ -f ${tmp_root}/boot/ramdisk/plat_file_contexts ]]; then
       # For Android Pie (Oreo 'nonplat' contexts lists removed and deprecated - nonplat_service_contexts changed to plat_service_contexts, nonplat_property_contexts and nonplat_file_contexts removed)
       CONTEXTS_LIST=" 
-      plat_service_contexts
       plat_property_contexts
       plat_file_contexts
       "
